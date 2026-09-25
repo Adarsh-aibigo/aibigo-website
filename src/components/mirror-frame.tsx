@@ -41,11 +41,14 @@ export function MirrorFrame({
         <Image src={src} alt={alt} width={width} height={height} className="w-full" priority />
       </div>
 
-      {/* Reflection: same image, flipped and faded, reads as a glossy surface beneath the frame */}
+      {/* Reflection: same image, flipped and faded, reads as a glossy surface beneath the frame.
+          aspect-ratio (not a % height, which needs an explicitly-sized parent) crops it to
+          roughly a quarter of the source image's height. */}
       <div
         aria-hidden
-        className="relative -mt-px h-[22%] overflow-hidden opacity-25"
+        className="relative -mt-px overflow-hidden opacity-25"
         style={{
+          aspectRatio: `${width} / ${height * 0.22}`,
           maskImage: "linear-gradient(to bottom, black, transparent)",
           WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
         }}
