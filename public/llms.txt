@@ -1,0 +1,18 @@
+# AIBIGO Institute
+
+> AIBIGO Institute is an AI-native education company building the infrastructure that connects what institutions teach, what industry needs, and what students become. It builds three products: IGALP, BOLO, and Redbox.
+
+AIBIGO Institute was founded by Dr. Rhushabh Goradia and Adarsh Jain. The company is based in India and works with higher-education institutions, industry partners, and teams/firms more broadly.
+
+## Products
+
+- [IGALP](https://aibigo.in/#igalp): Industry-Guided Applied Learning Program. A continuous, industry-guided applied learning and certification program for students, delivered through a Capability Intelligence Center inside partner institutions. Assesses students on 15+ industry-defined capability metrics (technical, cognitive, professional) across 100+ industry partners. Live and partnering with institutions.
+- [BOLO](https://aibigo.in/#bolo): A voice-first task delegation workspace for teams and firms. Users create, assign, and track tasks by speaking naturally (English, Hindi, or Hinglish), with broadcast notices and read-acknowledgement tracking built in. Live.
+- [Redbox](https://aibigo.in/#redbox): An AI accreditation advisor for NAAC, NBA, and NIRF (Indian higher-education accreditation frameworks). Coordinates evidence collection and stakeholder actions continuously so an institution stays audit-ready rather than audit-prepared. Live.
+
+## Company
+
+- [Thesis](https://aibigo.in/#thesis): AIBIGO's founding argument — that academia, industry, and students should operate as a continuous loop, and currently do not.
+- [Founders](https://aibigo.in/#founders): Dr. Rhushabh Goradia and Adarsh Jain, with backgrounds in applied AI, high-performance computing, and defense technology.
+- [FAQ](https://aibigo.in/#faq): Answers to common questions about AIBIGO, IGALP, BOLO, and Redbox.
+- [Contact](https://aibigo.in/#contact): info@aibigo.in. AIBIGO responds personally within two business days.

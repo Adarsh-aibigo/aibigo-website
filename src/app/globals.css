@@ -1,26 +1,78 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #fbfafc;
+  --paper-soft: #f4eff9;
+
+  --plum-950: #1c1029;
+  --plum-900: #271936;
+  --plum-800: #362249;
+  --plum-700: #4a2f63;
+  --plum-600: #5f3b85;
+  --plum-500: #7a52a6;
+  --plum-300: #b79bd2;
+  --plum-200: #ddccec;
+  --plum-100: #ede2f5;
+
+  --gold-600: #a9822a;
+  --gold-500: #c9a227;
+  --gold-400: #d9b64f;
+  --gold-200: #ecd48f;
+
+  --ink-900: #1a1420;
+  --ink-600: #5b5468;
+  --ink-400: #857e93;
+
+  --cream-50: #f8f4fc;
+  --cream-300: #cabcdb;
+
+  --radius-card: 20px;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-paper: var(--paper);
+  --color-paper-soft: var(--paper-soft);
+
+  --color-plum-950: var(--plum-950);
+  --color-plum-900: var(--plum-900);
+  --color-plum-800: var(--plum-800);
+  --color-plum-700: var(--plum-700);
+  --color-plum-600: var(--plum-600);
+  --color-plum-500: var(--plum-500);
+  --color-plum-300: var(--plum-300);
+  --color-plum-200: var(--plum-200);
+  --color-plum-100: var(--plum-100);
+
+  --color-gold-600: var(--gold-600);
+  --color-gold-500: var(--gold-500);
+  --color-gold-400: var(--gold-400);
+  --color-gold-200: var(--gold-200);
+
+  --color-ink-900: var(--ink-900);
+  --color-ink-600: var(--ink-600);
+  --color-ink-400: var(--ink-400);
+
+  --color-cream-50: var(--cream-50);
+  --color-cream-300: var(--cream-300);
+
+  --radius-card: var(--radius-card);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--paper);
+  color: var(--ink-900);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
