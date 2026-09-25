@@ -44,7 +44,7 @@ export function MirrorFrame({
       {/* Reflection: same image, flipped and faded, reads as a glossy surface beneath the frame */}
       <div
         aria-hidden
-        className="relative -mt-px h-[45%] overflow-hidden opacity-25"
+        className="relative -mt-px h-[22%] overflow-hidden opacity-25"
         style={{
           maskImage: "linear-gradient(to bottom, black, transparent)",
           WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
