@@ -37,8 +37,10 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Enter a valid email address." }, { status: 400 });
   }
 
-  const smtpUser = process.env.SMTP_USER;
-  const smtpPass = process.env.SMTP_PASS;
+  const smtpUser = process.env.SMTP_USER?.trim();
+  // Gmail app passwords are displayed as "abcd efgh ijkl mnop" for readability,
+  // but the real value has no spaces — strip them in case they got pasted verbatim.
+  const smtpPass = process.env.SMTP_PASS?.replace(/\s+/g, "");
 
   if (!smtpUser || !smtpPass) {
     console.error("Contact form: SMTP_USER / SMTP_PASS are not configured.");
