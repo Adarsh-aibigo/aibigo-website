@@ -54,6 +54,16 @@ export function Button({
   }
 
   if (href) {
+    // Same-page anchors (e.g. "#contact") use a plain <a> — next/link's
+    // client-side transition doesn't reliably scroll to the hash target,
+    // while a native anchor always does.
+    if (href.startsWith("#")) {
+      return (
+        <a href={href} className={classes}>
+          {children}
+        </a>
+      );
+    }
     return (
       <Link href={href} className={classes}>
         {children}
