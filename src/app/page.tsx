@@ -1,6 +1,5 @@
 import { SiteHeader } from "@/components/site-header";
 import { Hero } from "@/components/hero";
-import { Thesis } from "@/components/thesis";
 import { ProductIGALP } from "@/components/product-igalp";
 import { IgalpOpportunity } from "@/components/igalp-opportunity";
 import { IgalpMechanism } from "@/components/igalp-mechanism";
@@ -21,7 +20,6 @@ export default function Home() {
       <SiteHeader />
       <main>
         <Hero />
-        <Thesis />
         <ProductIGALP />
         <IgalpOpportunity />
         <IgalpMechanism />
