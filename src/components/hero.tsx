@@ -3,12 +3,10 @@ import { Reveal } from "./reveal";
 import { OrbitShowcaseClient } from "./orbit-showcase-client";
 
 const showcase = [
-  { src: "/bolo/voice-home.jpg", label: "BOLO", width: 1512, height: 801 },
   { src: "/igalp/workspace.jpg", label: "IGALP", width: 1400, height: 782 },
-  { src: "/bolo/tasks-delegated.jpg", label: "BOLO", width: 1512, height: 801 },
   { src: "/igalp/scenario.jpg", label: "IGALP", width: 1400, height: 795 },
-  { src: "/bolo/broadcast-notice.jpg", label: "BOLO", width: 1512, height: 801 },
   { src: "/igalp/capability-journey.jpg", label: "IGALP", width: 1400, height: 796 },
+  { src: "/igalp/assessments.png", label: "IGALP", width: 1469, height: 832 },
 ];
 
 export function Hero() {
@@ -23,15 +21,15 @@ export function Hero() {
         <div className="text-center lg:col-span-6 lg:text-left">
           <Reveal delay={0.08}>
             <h1 className="mx-auto pb-1 text-4xl leading-[1.15] font-semibold tracking-tight text-cream-50 md:text-[42px] lg:mx-0 lg:text-[38px] xl:text-[44px]">
-              Connecting education, industry <span className="italic text-gold-300">and student capability.</span>
+              Industry-ready graduates, <span className="italic text-gold-300">before they graduate.</span>
             </h1>
           </Reveal>
 
           <Reveal delay={0.16}>
             <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-cream-300 md:text-lg lg:mx-0">
-              IGALP brings industry-guided learning into the academic
-              journey, connecting institutions, industry and students in one
-              continuous system.
+              The Industry-Guided Applied Learning Program (IGALP) connects
+              institutions, industry and students through a continuous
+              learning journey embedded within their academic experience.
             </p>
           </Reveal>
 

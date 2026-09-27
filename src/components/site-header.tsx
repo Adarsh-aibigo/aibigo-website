@@ -7,9 +7,9 @@ import { List, X } from "@phosphor-icons/react/dist/ssr";
 import { Container, Button } from "./ui";
 
 const links = [
-  { href: "#approach", label: "Our Approach" },
+  { href: "#approach", label: "Home" },
   { href: "#igalp", label: "IGALP" },
-  { href: "#products", label: "Products" },
+  { href: "#bolo", label: "BOLO" },
   { href: "#founders", label: "Founders" },
   { href: "#faq", label: "FAQ" },
 ];

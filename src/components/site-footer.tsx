@@ -14,7 +14,7 @@ export function SiteFooter() {
           </div>
 
           <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
-            <a href="#approach" className="hover:text-cream-50">Our Approach</a>
+            <a href="#approach" className="hover:text-cream-50">Home</a>
             <a href="#igalp" className="hover:text-cream-50">IGALP</a>
             <a href="#bolo" className="hover:text-cream-50">BOLO</a>
             <a href="#founders" className="hover:text-cream-50">Founders</a>

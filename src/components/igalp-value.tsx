@@ -17,27 +17,27 @@ const institutionValue = [
   {
     icon: ChartBar,
     title: "Stronger student outcomes",
-    body: "Better career starts and improved visibility into student capability.",
+    body: "Better placements and higher graduate salaries, backed by evidence of capability.",
   },
   {
     icon: Eye,
     title: "Capability visibility",
-    body: "A continuous, evidence-based view of what students can actually do.",
+    body: "Department-wise performance insights across 15+ capability parameters.",
   },
   {
     icon: Handshake,
     title: "Industry engagement",
-    body: "A standing channel to the institution through AIBIGO's network.",
+    body: "Access to AIBIGO's network, and inter-institutional collaboration.",
   },
   {
     icon: Sparkle,
     title: "Differentiated student experience",
-    body: "A structured applied-learning program, not just coursework.",
+    body: "More live projects, internships and research opportunities alongside coursework.",
   },
   {
     icon: Users,
     title: "Institutional partnerships",
-    body: "Funding, research collaboration and faculty development through the AIBIGO Circle.",
+    body: "Faculty exposure to industry practice, and support for accreditation reviews.",
   },
 ];
 
@@ -45,22 +45,22 @@ const industryValue = [
   {
     icon: Binoculars,
     title: "Talent visibility",
-    body: "Continuous, capability-level visibility into students, not just resumes.",
+    body: "Continuous, capability-level visibility into students, evaluated on 15+ metrics.",
   },
   {
     icon: Handshake,
     title: "Early engagement",
-    body: "A relationship with future talent years before hiring begins.",
+    body: "Access to students years before the placement cycle, cutting screening effort.",
   },
   {
     icon: UsersThree,
     title: "Academic collaboration",
-    body: "A direct channel into curriculum and applied research.",
+    body: "A direct channel into curriculum, research and consultancy with the institution.",
   },
   {
     icon: GraduationCap,
     title: "Emerging talent access",
-    body: "Early visibility into graduates suited to specific roles and teams.",
+    body: "A much larger, continuously tracked graduate pool across institutions.",
   },
   {
     icon: Briefcase,
