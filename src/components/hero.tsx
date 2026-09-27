@@ -23,7 +23,7 @@ export function Hero() {
         <div className="text-center lg:col-span-6 lg:text-left">
           <Reveal delay={0.08}>
             <h1 className="mx-auto pb-1 text-4xl leading-[1.15] font-semibold tracking-tight text-cream-50 md:text-[42px] lg:mx-0 lg:text-[38px] xl:text-[44px]">
-              Connecting education, industry <span className="italic text-gold-300">and student capability.</span>
+              Industry-ready graduates, <span className="italic text-gold-300">before they graduate.</span>
             </h1>
           </Reveal>
 

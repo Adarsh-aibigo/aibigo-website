@@ -3,7 +3,7 @@ import { Reveal } from "./reveal";
 
 export function ProductsSecondary() {
   return (
-    <div id="products" className="relative bg-paper pt-20 lg:pt-28">
+    <div className="relative bg-paper pt-20 lg:pt-28">
       <Container>
         <Reveal>
           <Eyebrow>Also from AIBIGO</Eyebrow>
