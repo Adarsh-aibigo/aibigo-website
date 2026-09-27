@@ -28,9 +28,10 @@ export function AibigoCircle() {
             One ecosystem, connecting every part of the journey.
           </h3>
           <p className="mt-4 max-w-md text-[15px] leading-relaxed text-ink-600">
-            Students, institutions, industry and domain experts, brought
-            together in a single continuous loop, each one strengthening the
-            others.
+            Institutions adopting IGALP become part of the AIBIGO Circle, a
+            growing ecosystem with access to hundreds of industry partners
+            across sectors, cities and regions. Joining carries no upfront
+            financial commitment.
           </p>
         </Reveal>
 
