@@ -6,6 +6,7 @@ const showcase = [
   { src: "/igalp/workspace.jpg", label: "IGALP", width: 1400, height: 782 },
   { src: "/igalp/scenario.jpg", label: "IGALP", width: 1400, height: 795 },
   { src: "/igalp/capability-journey.jpg", label: "IGALP", width: 1400, height: 796 },
+  { src: "/igalp/assessments.png", label: "IGALP", width: 1469, height: 832 },
 ];
 
 export function Hero() {
