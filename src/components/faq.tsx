@@ -25,7 +25,15 @@ const faqs = [
   },
   {
     q: "How does an institution implement IGALP?",
-    a: "AIBIGO establishes a Capability Intelligence Center inside the institution, brings its network of industry partners into weekly scenarios, and handles the assessment and reporting infrastructure end to end.",
+    a: "It starts with an initial discussion and institutional alignment, formalised through an MoU with no upfront financial commitment. AIBIGO then establishes a Capability Center inside the institution and brings its network of industry partners into weekly scenarios.",
+  },
+  {
+    q: "Is IGALP a placement coaching program?",
+    a: "No. IGALP goes beyond interview or aptitude prep, it trains students to apply concepts, solve problems and make decisions the way industry expects, building capability that holds up well beyond a single test or interview.",
+  },
+  {
+    q: "Does an institution need to invest in new infrastructure?",
+    a: "No. A Capability Center can be set up using an existing lab or classroom, and joining the AIBIGO Circle carries no upfront financial commitment.",
   },
   {
     q: "What is AIBIGO Institute?",

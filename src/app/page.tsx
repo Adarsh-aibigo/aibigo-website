@@ -7,6 +7,7 @@ import { IgalpMechanism } from "@/components/igalp-mechanism";
 import { IgalpOutcome } from "@/components/igalp-outcome";
 import { IgalpValue } from "@/components/igalp-value";
 import { AibigoCircle } from "@/components/aibigo-circle";
+import { AibigoPartnership } from "@/components/aibigo-partnership";
 import { ProductsSecondary } from "@/components/products-secondary";
 import { ProductBOLO } from "@/components/product-bolo";
 import { Founders } from "@/components/founders";
@@ -27,6 +28,7 @@ export default function Home() {
         <IgalpOutcome />
         <IgalpValue />
         <AibigoCircle />
+        <AibigoPartnership />
         <ProductsSecondary />
         <ProductBOLO />
         <Founders />

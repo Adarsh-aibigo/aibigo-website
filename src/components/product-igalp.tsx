@@ -25,9 +25,9 @@ export function ProductIGALP() {
             Industry learning, <span className="italic text-plum-600">built into the curriculum.</span>
           </h2>
           <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-ink-600 md:text-base">
-            A structured program that brings industry context, applied
-            learning and continuous capability development into the academic
-            journey, from first year through graduation.
+            Unlike conventional placement platforms, IGALP engages students
+            with real industry situations early in their journey, and keeps
+            going all the way through graduation and into placement.
           </p>
           <div className="mt-6">
             <Button
@@ -51,10 +51,11 @@ export function ProductIGALP() {
                   The Capability Intelligence Center
                 </h3>
                 <p className="mt-3 max-w-md text-[15px] leading-relaxed text-cream-300">
-                  Established inside the institution alongside AIBIGO. Weekly
-                  sessions combine AI-assisted concept exercises with
-                  industry-guided scenarios, contributed by AIBIGO&apos;s
-                  growing network of industry partners across sectors.
+                  Set up using an existing lab or classroom, no dedicated
+                  infrastructure needed. Weekly sessions combine AI-assisted
+                  concept exercises with industry-guided scenarios,
+                  contributed by AIBIGO&apos;s growing network of industry
+                  partners across sectors.
                 </p>
               </div>
               <div className="mt-8 flex flex-wrap gap-2">
