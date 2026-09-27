@@ -3,11 +3,8 @@ import { Reveal } from "./reveal";
 import { OrbitShowcaseClient } from "./orbit-showcase-client";
 
 const showcase = [
-  { src: "/bolo/voice-home.jpg", label: "BOLO", width: 1512, height: 801 },
   { src: "/igalp/workspace.jpg", label: "IGALP", width: 1400, height: 782 },
-  { src: "/bolo/tasks-delegated.jpg", label: "BOLO", width: 1512, height: 801 },
   { src: "/igalp/scenario.jpg", label: "IGALP", width: 1400, height: 795 },
-  { src: "/bolo/broadcast-notice.jpg", label: "BOLO", width: 1512, height: 801 },
   { src: "/igalp/capability-journey.jpg", label: "IGALP", width: 1400, height: 796 },
 ];
 
