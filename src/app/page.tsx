@@ -2,8 +2,9 @@ import { SiteHeader } from "@/components/site-header";
 import { Hero } from "@/components/hero";
 import { Thesis } from "@/components/thesis";
 import { ProductIGALP } from "@/components/product-igalp";
-import { IgalpHowItWorks } from "@/components/igalp-how-it-works";
-import { IgalpJourney } from "@/components/igalp-journey";
+import { IgalpOpportunity } from "@/components/igalp-opportunity";
+import { IgalpMechanism } from "@/components/igalp-mechanism";
+import { IgalpOutcome } from "@/components/igalp-outcome";
 import { IgalpValue } from "@/components/igalp-value";
 import { AibigoCircle } from "@/components/aibigo-circle";
 import { ProductsSecondary } from "@/components/products-secondary";
@@ -21,8 +22,9 @@ export default function Home() {
         <Hero />
         <Thesis />
         <ProductIGALP />
-        <IgalpHowItWorks />
-        <IgalpJourney />
+        <IgalpOpportunity />
+        <IgalpMechanism />
+        <IgalpOutcome />
         <IgalpValue />
         <AibigoCircle />
         <ProductsSecondary />

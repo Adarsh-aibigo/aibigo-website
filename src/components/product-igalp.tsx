@@ -2,51 +2,12 @@ import {
   Buildings,
   ChartLineUp,
   Certificate,
-  Cpu,
-  Brain,
-  Handshake,
   DownloadSimple,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button, Container } from "./ui";
-import { Reveal, RevealGroup, RevealItem } from "./reveal";
+import { Reveal } from "./reveal";
 import { SpotlightCard } from "./spotlight-card";
 import { SectionGlow } from "./section-glow";
-
-const metricGroups = [
-  {
-    label: "Technical",
-    icon: Cpu,
-    items: [
-      "Technical application",
-      "Problem solving",
-      "Learning agility",
-      "Effective use of AI tools",
-      "Systems thinking",
-    ],
-  },
-  {
-    label: "Cognitive",
-    icon: Brain,
-    items: [
-      "Decision making",
-      "Analytical reasoning",
-      "Adaptability",
-      "Critical thinking",
-      "Creativity",
-    ],
-  },
-  {
-    label: "Professional",
-    icon: Handshake,
-    items: [
-      "Communication",
-      "Collaboration",
-      "Professional judgement",
-      "Ethics and responsibility",
-      "Project planning",
-    ],
-  },
-];
 
 export function ProductIGALP() {
   return (
@@ -135,42 +96,6 @@ export function ProductIGALP() {
               </SpotlightCard>
             </Reveal>
           </div>
-        </div>
-
-        {/* 15 capability metrics, grouped */}
-        <div className="mt-14">
-          <Reveal>
-            <div className="flex items-end gap-3">
-              <span className="text-4xl leading-none font-semibold tracking-tight text-plum-600 md:text-5xl">
-                15+
-              </span>
-              <h3 className="pb-0.5 text-sm font-medium text-ink-900">
-                industry-defined capability metrics, across three dimensions
-              </h3>
-            </div>
-          </Reveal>
-          <RevealGroup className="mt-6 grid gap-5 sm:grid-cols-3">
-            {metricGroups.map((g) => (
-              <RevealItem key={g.label}>
-                <div className="h-full rounded-[var(--radius-card)] border border-plum-100 bg-white/60 p-6 backdrop-blur-md">
-                  <g.icon size={22} weight="light" className="text-plum-600" />
-                  <p className="mt-3 text-xs font-medium tracking-[0.06em] text-plum-500 uppercase">
-                    {g.label}
-                  </p>
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    {g.items.map((item) => (
-                      <span
-                        key={item}
-                        className="rounded-full border border-plum-100 bg-paper-soft px-3 py-1.5 text-[13px] text-ink-600"
-                      >
-                        {item}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </RevealItem>
-            ))}
-          </RevealGroup>
         </div>
       </Container>
     </section>
