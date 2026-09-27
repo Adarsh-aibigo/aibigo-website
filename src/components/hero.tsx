@@ -29,9 +29,9 @@ export function Hero() {
 
           <Reveal delay={0.16}>
             <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-cream-300 md:text-lg lg:mx-0">
-              IGALP brings industry-guided learning into the academic
-              journey, connecting institutions, industry and students in one
-              continuous system.
+              The Industry-Guided Applied Learning Program (IGALP) connects
+              institutions, industry and students through a continuous
+              learning journey embedded within their academic experience.
             </p>
           </Reveal>
 
